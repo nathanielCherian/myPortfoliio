@@ -278,6 +278,40 @@
 			<key>uniqueIdentifier</key>
 			<string>331E642B-696F-4F4F-8B8C-E9C9A944A1AB</string>
 		</dict>
+		<key>4670CF5F-1933-4032-82F4-07AC93D713B7</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>4670CF5F-1933-4032-82F4-07AC93D713B7.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UI-Portfolio project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UI-Portfolio</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug UI-Portfolio</string>
+			<key>timeStartedRecording</key>
+			<real>600994945.53736806</real>
+			<key>timeStoppedRecording</key>
+			<real>600996465.39847505</real>
+			<key>title</key>
+			<string>Debug UI-Portfolio</string>
+			<key>uniqueIdentifier</key>
+			<string>4670CF5F-1933-4032-82F4-07AC93D713B7</string>
+		</dict>
 		<key>4CE26131-C90A-43FC-A90C-766A6936CC6E</key>
 		<dict>
 			<key>className</key>
@@ -380,6 +414,40 @@
 			<key>uniqueIdentifier</key>
 			<string>5437E420-D1F2-4CB3-8D50-94648409386A</string>
 		</dict>
+		<key>9A57BD3C-EBEB-47EA-BB75-3E54AAACE58A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>9A57BD3C-EBEB-47EA-BB75-3E54AAACE58A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UI-Portfolio project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UI-Portfolio</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug UI-Portfolio</string>
+			<key>timeStartedRecording</key>
+			<real>600996832.78323305</real>
+			<key>timeStoppedRecording</key>
+			<real>600996864.52054596</real>
+			<key>title</key>
+			<string>Debug UI-Portfolio</string>
+			<key>uniqueIdentifier</key>
+			<string>9A57BD3C-EBEB-47EA-BB75-3E54AAACE58A</string>
+		</dict>
 		<key>9C846CF6-0449-418E-BE2C-99F899BDA95E</key>
 		<dict>
 			<key>className</key>
@@ -447,6 +515,40 @@
 			<string>Debug UI-Portfolio</string>
 			<key>uniqueIdentifier</key>
 			<string>A8396DFA-733B-4E0F-B632-A66A794FA203</string>
+		</dict>
+		<key>B599E1F3-A276-458E-8F94-EFE1B9390FC5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B599E1F3-A276-458E-8F94-EFE1B9390FC5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UI-Portfolio project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UI-Portfolio</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug UI-Portfolio</string>
+			<key>timeStartedRecording</key>
+			<real>600996465.56893897</real>
+			<key>timeStoppedRecording</key>
+			<real>600996828.23464</real>
+			<key>title</key>
+			<string>Debug UI-Portfolio</string>
+			<key>uniqueIdentifier</key>
+			<string>B599E1F3-A276-458E-8F94-EFE1B9390FC5</string>
 		</dict>
 		<key>C9F736F9-22C2-424A-BF3F-D68330EA3D8B</key>
 		<dict>

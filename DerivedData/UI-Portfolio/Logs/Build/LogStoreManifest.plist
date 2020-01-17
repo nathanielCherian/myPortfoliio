@@ -244,6 +244,40 @@
 			<key>uniqueIdentifier</key>
 			<string>3ADBAEB5-29B9-43D6-A40B-8EED8C58DBA2</string>
 		</dict>
+		<key>3DE186F5-AC79-4821-A38A-DBE73BBADA3C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3DE186F5-AC79-4821-A38A-DBE73BBADA3C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UI-Portfolio project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UI-Portfolio</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build UI-Portfolio</string>
+			<key>timeStartedRecording</key>
+			<real>600996864.49820805</real>
+			<key>timeStoppedRecording</key>
+			<real>600996865.18590403</real>
+			<key>title</key>
+			<string>Build UI-Portfolio</string>
+			<key>uniqueIdentifier</key>
+			<string>3DE186F5-AC79-4821-A38A-DBE73BBADA3C</string>
+		</dict>
 		<key>44486682-5275-43D2-AE5D-AC1FD713A684</key>
 		<dict>
 			<key>className</key>
@@ -345,6 +379,40 @@
 			<string>Build UI-Portfolio</string>
 			<key>uniqueIdentifier</key>
 			<string>5E8B6172-6E47-43C4-BDD6-21BE01B9CAED</string>
+		</dict>
+		<key>61FBCD20-32AB-4A69-8664-589256E2641B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>61FBCD20-32AB-4A69-8664-589256E2641B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UI-Portfolio project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UI-Portfolio</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build UI-Portfolio</string>
+			<key>timeStartedRecording</key>
+			<real>600996465.35300398</real>
+			<key>timeStoppedRecording</key>
+			<real>600996465.53440297</real>
+			<key>title</key>
+			<string>Build UI-Portfolio</string>
+			<key>uniqueIdentifier</key>
+			<string>61FBCD20-32AB-4A69-8664-589256E2641B</string>
 		</dict>
 		<key>760AB824-36D2-4567-BE11-707FF19F29FF</key>
 		<dict>
@@ -583,6 +651,40 @@
 			<string>Build UI-Portfolio</string>
 			<key>uniqueIdentifier</key>
 			<string>DF6B8114-CC9A-4101-8E45-69C3765A1041</string>
+		</dict>
+		<key>FA2B5F78-1E1B-42CF-A631-C15D01647759</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>FA2B5F78-1E1B-42CF-A631-C15D01647759.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UI-Portfolio project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UI-Portfolio</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build UI-Portfolio</string>
+			<key>timeStartedRecording</key>
+			<real>600996828.31404698</real>
+			<key>timeStoppedRecording</key>
+			<real>600996832.77789199</real>
+			<key>title</key>
+			<string>Build UI-Portfolio</string>
+			<key>uniqueIdentifier</key>
+			<string>FA2B5F78-1E1B-42CF-A631-C15D01647759</string>
 		</dict>
 	</dict>
 </dict>

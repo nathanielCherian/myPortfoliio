@@ -9,7 +9,8 @@
 #import "golfViewController.h"
 
 @implementation golfViewController
-@synthesize ball, hole;
+@synthesize ball, hole, movesLabel;
+int counter = 0;
 
 - (void)viewDidLoad {
   [super viewDidLoad];
@@ -32,6 +33,9 @@
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
  NSLog(@"touches Ended");
   
+    counter++;
+    movesLabel.text = [NSString stringWithFormat:@"%d" , 5];
+    
  UITouch *touch = [touches anyObject];
   
  // store point a touch end
