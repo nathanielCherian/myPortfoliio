@@ -274,7 +274,7 @@
                                     <action selector="clearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ipd-Z5-1yD"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lati.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="R7A-EI-fSG">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lati.png" translatesAutoresizingMaskIntoConstraints="NO" id="R7A-EI-fSG">
                                 <rect key="frame" x="124" y="79" width="167" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -292,6 +292,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="lati.jpg" width="275" height="183"/>
+        <image name="lati.png" width="120" height="120"/>
     </resources>
 </document>

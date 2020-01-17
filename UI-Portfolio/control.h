@@ -53,4 +53,13 @@ char *revXRecurse(const char* input, long length);
 char *revXPointer(const char* input, long length);
 char *paliEval(char* input, long length);
 
+
+char* pigLatin (char word[] );
+char* shrthnd (char word[] );
+void clearBuffer(char word[]);
+void clearPigBuffer(void);
+char *shorty(char* input);
+char *pigLatti(char* input);
+
+
 #endif /* control_h */

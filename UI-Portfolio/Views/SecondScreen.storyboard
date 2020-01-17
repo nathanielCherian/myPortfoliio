@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OC2-eW-JAR">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="cXQ-Zt-WuV">
+            <objects>
+                <viewController storyboardIdentifier="Main2" id="OC2-eW-JAR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HLT-dn-LBe">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V7Z-Jv-YIU">
+                                <rect key="frame" x="90" y="117" width="234" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="29"/>
+                                <size key="titleShadowOffset" width="-0.5" height="-0.5"/>
+                                <state key="normal" title="Golf">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium" weight="bold"/>
+                                </state>
+                                <connections>
+                                    <segue destination="58q-pL-F5r" kind="show" id="LE5-lP-HeN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gkh-Of-dIp">
+                                <rect key="frame" x="90" y="227" width="234" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="29"/>
+                                <size key="titleShadowOffset" width="-0.5" height="-0.5"/>
+                                <state key="normal" title="Reverse">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium" weight="bold"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Ns4-54-ctW" kind="show" id="HGY-2q-Tlx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ct-dM-OEa">
+                                <rect key="frame" x="90" y="347" width="234" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="29"/>
+                                <size key="titleShadowOffset" width="-0.5" height="-0.5"/>
+                                <state key="normal" title="Translator">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium" weight="bold"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Z28-va-EnB" kind="show" id="lI0-iq-Q54"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="cqr-Q2-YTA"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2nu-zZ-cEg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="111.59420289855073" y="137.94642857142856"/>
+        </scene>
+        <!--golf-->
+        <scene sceneID="R0a-Xx-jaS">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="golf" storyboardName="golf" referencedIdentifier="golf" id="58q-pL-F5r" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="1yM-gP-yCl"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dOa-mH-VKK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="622" y="-48"/>
+        </scene>
+        <!--reverse-->
+        <scene sceneID="Cuq-Lt-kR1">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="reverse" storyboardName="reverse" referencedIdentifier="reverse" id="Ns4-54-ctW" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="JYM-ua-uRP"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J4X-wb-7T5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="637" y="73"/>
+        </scene>
+        <!--translator-->
+        <scene sceneID="6Zh-7p-ldf">
+            <objects>
+                <viewControllerPlaceholder storyboardName="translator" id="Z28-va-EnB" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="ELT-fm-lac"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e8i-al-xJW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="672" y="221"/>
+        </scene>
+    </scenes>
+</document>

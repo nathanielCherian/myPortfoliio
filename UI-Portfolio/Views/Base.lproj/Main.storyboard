@@ -7,6 +7,16 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Main2-->
+        <scene sceneID="MgH-ex-Fdq">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Main2" storyboardName="SecondScreen" referencedIdentifier="Main2" id="wt3-CU-2BS" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="GeC-Pf-VoZ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tCK-kr-JaR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1209" y="388"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -70,8 +80,23 @@
                                     <segue destination="KRY-Il-AUj" kind="show" id="E0t-Uh-w46"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Szh-HQ-b0l">
+                                <rect key="frame" x="109" y="771" width="209" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="29"/>
+                                <size key="titleShadowOffset" width="-0.5" height="-0.5"/>
+                                <state key="normal" title="next...">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium" weight="semibold"/>
+                                </state>
+                                <connections>
+                                    <segue destination="wt3-CU-2BS" kind="show" id="rJ3-GY-4Kt"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v5h-nD-uca">
-                                <rect key="frame" x="84" y="638" width="234" height="88"/>
+                                <rect key="frame" x="84" y="623" width="234" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="29"/>
@@ -83,14 +108,6 @@
                                 </state>
                                 <connections>
                                     <segue destination="oD1-R7-Jr9" kind="show" id="rTl-gf-g7C"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9sb-oY-K0U">
-                                <rect key="frame" x="164" y="771" width="74" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Reverse"/>
-                                <connections>
-                                    <segue destination="UMk-9N-AIw" kind="show" id="KyC-Iq-ne6"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -128,16 +145,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2hw-T3-ZPh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1320" y="190"/>
-        </scene>
-        <!--reverse-->
-        <scene sceneID="x0f-j4-RGL">
-            <objects>
-                <viewControllerPlaceholder storyboardIdentifier="reverse" storyboardName="reverse" id="UMk-9N-AIw" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="7AC-cU-G2Z"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="z0L-jM-eow" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1241" y="238"/>
         </scene>
         <!--Calc-->
         <scene sceneID="w9a-2n-0NH">

@@ -1,7 +1,6 @@
 //
 //  main.m
 //  UI-Portfolio
-=.
 //
 
 #import <UIKit/UIKit.h>
