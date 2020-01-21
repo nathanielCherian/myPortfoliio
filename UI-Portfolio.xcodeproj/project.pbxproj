@@ -30,7 +30,6 @@
 		B91CCD0723D12AC50025D02B /* translator.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91CCD0623D12AC50025D02B /* translator.storyboard */; };
 		B91CCD0C23D12E340025D02B /* translate.c in Sources */ = {isa = PBXBuildFile; fileRef = B91CCD0B23D12E340025D02B /* translate.c */; };
 		B924BEDC23D11B0C006791CB /* golf.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B924BEDB23D11B0C006791CB /* golf.storyboard */; };
-		B924BEDE23D11D4D006791CB /* golfball.png in Resources */ = {isa = PBXBuildFile; fileRef = B924BEDD23D11D4D006791CB /* golfball.png */; };
 		B924BEE223D11DAC006791CB /* golfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B924BEE123D11DAC006791CB /* golfViewController.m */; };
 		B953905E237CBE90003F7A44 /* rectController.m in Sources */ = {isa = PBXBuildFile; fileRef = B953905D237CBE90003F7A44 /* rectController.m */; };
 		B9D0AFF423A2FACB00013458 /* reverse.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D0AFF323A2FACB00013458 /* reverse.storyboard */; };
@@ -71,7 +70,6 @@
 		B91CCD0623D12AC50025D02B /* translator.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = translator.storyboard; sourceTree = "<group>"; };
 		B91CCD0B23D12E340025D02B /* translate.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = translate.c; sourceTree = "<group>"; };
 		B924BEDB23D11B0C006791CB /* golf.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golf.storyboard; sourceTree = "<group>"; };
-		B924BEDD23D11D4D006791CB /* golfball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = golfball.png; path = ../../../golfball.png; sourceTree = "<group>"; };
 		B924BEE023D11DAC006791CB /* golfViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = golfViewController.h; sourceTree = "<group>"; };
 		B924BEE123D11DAC006791CB /* golfViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = golfViewController.m; sourceTree = "<group>"; };
 		B953905D237CBE90003F7A44 /* rectController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rectController.m; sourceTree = "<group>"; };
@@ -179,7 +177,6 @@
 			isa = PBXGroup;
 			children = (
 				B91CCD0123D12A610025D02B /* lati.png */,
-				B924BEDD23D11D4D006791CB /* golfball.png */,
 				85CDE3242374D5C500EB461B /* monkeys.jpg */,
 				85B55EA3237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif */,
 				852B40C5237628820044AF2D /* button.png */,
@@ -249,7 +246,6 @@
 				852B40C6237628820044AF2D /* button.png in Resources */,
 				B924BEDC23D11B0C006791CB /* golf.storyboard in Resources */,
 				85B55EA4237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif in Resources */,
-				B924BEDE23D11D4D006791CB /* golfball.png in Resources */,
 				B9D0AFF423A2FACB00013458 /* reverse.storyboard in Resources */,
 				B91CCD0723D12AC50025D02B /* translator.storyboard in Resources */,
 				B91CCD0023D1277F0025D02B /* SecondScreen.storyboard in Resources */,
