@@ -16,6 +16,11 @@
 @interface golfViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UIImageView *hole;
 @property (strong, nonatomic) IBOutlet UIImageView *ball;
+@property (strong, nonatomic) IBOutlet UIImageView *wall;
+@property (strong, nonatomic) IBOutlet UIImageView *wall2;
+@property (strong, nonatomic) IBOutlet UIImageView *wall3;
+@property (strong, nonatomic) IBOutlet UIImageView *wall4;
+@property (strong, nonatomic) IBOutlet UIImageView *wall5;
 @property (weak, nonatomic) IBOutlet UILabel *movesLabel;
 @property (nonatomic) CGPoint firstPoint;
 @property (nonatomic) CGPoint lastPoint;

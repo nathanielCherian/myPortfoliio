@@ -73,6 +73,24 @@ int counter = 0;
     [self.gameTimer invalidate];
     [self.view setUserInteractionEnabled:YES];
   }
+    
+    if (CGRectIntersectsRect(self.ball.frame, self.wall.frame)) {
+    self.ballVelocityX = speedDamping * self.ballVelocityX * (-1);
+    }
+    if (CGRectIntersectsRect(self.ball.frame, self.wall2.frame)) {
+    self.ballVelocityX = speedDamping * self.ballVelocityX * (-1);
+    }
+    if (CGRectIntersectsRect(self.ball.frame, self.wall3.frame)) {
+    self.ballVelocityY = speedDamping * self.ballVelocityY * (-1);
+    }
+    if (CGRectIntersectsRect(self.ball.frame, self.wall4.frame)) {
+    self.ballVelocityY = speedDamping * self.ballVelocityY * (-1);
+    }
+    if (CGRectIntersectsRect(self.ball.frame, self.wall5.frame)) {
+    self.ballVelocityY = speedDamping * self.ballVelocityY * (-1);
+    }
 }
+
+
 
 @end
