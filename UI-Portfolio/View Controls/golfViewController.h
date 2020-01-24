@@ -21,7 +21,9 @@
 @property (strong, nonatomic) IBOutlet UIImageView *wall3;
 @property (strong, nonatomic) IBOutlet UIImageView *wall4;
 @property (strong, nonatomic) IBOutlet UIImageView *wall5;
+@property (strong, nonatomic) IBOutlet UIImageView *sandPit;
 @property (weak, nonatomic) IBOutlet UILabel *movesLabel;
+@property (weak, nonatomic) IBOutlet UIButton *nextLevelButton;
 @property (nonatomic) CGPoint firstPoint;
 @property (nonatomic) CGPoint lastPoint;
 @property (nonatomic) float ballVelocityX;

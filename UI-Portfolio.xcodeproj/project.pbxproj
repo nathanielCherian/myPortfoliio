@@ -35,6 +35,8 @@
 		B9D0AFF423A2FACB00013458 /* reverse.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D0AFF323A2FACB00013458 /* reverse.storyboard */; };
 		B9D0AFF723A2FADC00013458 /* ReverseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D0AFF623A2FADC00013458 /* ReverseViewController.m */; };
 		B9D0AFFD23A2FB8000013458 /* Reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = B9D0AFFC23A2FB8000013458 /* Reverse.c */; };
+		B9D9D66923DB8B5B00FEED51 /* golfLev2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D9D66823DB8B5B00FEED51 /* golfLev2.storyboard */; };
+		B9D9D66B23DB91C200FEED51 /* golfLev3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D9D66A23DB91C200FEED51 /* golfLev3.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +80,8 @@
 		B9D0AFF523A2FADC00013458 /* ReverseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseViewController.h; sourceTree = "<group>"; };
 		B9D0AFF623A2FADC00013458 /* ReverseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseViewController.m; sourceTree = "<group>"; };
 		B9D0AFFC23A2FB8000013458 /* Reverse.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Reverse.c; sourceTree = "<group>"; };
+		B9D9D66823DB8B5B00FEED51 /* golfLev2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfLev2.storyboard; sourceTree = "<group>"; };
+		B9D9D66A23DB91C200FEED51 /* golfLev3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = golfLev3.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +121,6 @@
 				B91CCD0B23D12E340025D02B /* translate.c */,
 				857447762370D83B008222BA /* View Controls */,
 				857447772370D84C008222BA /* Views */,
-				857447752370D7F9008222BA /* Models */,
 				857447682370D7D4008222BA /* Assets.xcassets */,
 				8574476D2370D7D4008222BA /* Info.plist */,
 				85B55EA2237382B10079E50F /* Images */,
@@ -167,8 +170,11 @@
 				85CDE3222374D50000EB461B /* Jumpers.storyboard */,
 				B9D0AFF323A2FACB00013458 /* reverse.storyboard */,
 				B924BEDB23D11B0C006791CB /* golf.storyboard */,
+				B9D9D66823DB8B5B00FEED51 /* golfLev2.storyboard */,
+				B9D9D66A23DB91C200FEED51 /* golfLev3.storyboard */,
 				B91CCCFF23D1277F0025D02B /* SecondScreen.storyboard */,
 				B91CCD0623D12AC50025D02B /* translator.storyboard */,
+				857447752370D7F9008222BA /* Models */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -248,11 +254,13 @@
 				85B55EA4237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif in Resources */,
 				B9D0AFF423A2FACB00013458 /* reverse.storyboard in Resources */,
 				B91CCD0723D12AC50025D02B /* translator.storyboard in Resources */,
+				B9D9D66B23DB91C200FEED51 /* golfLev3.storyboard in Resources */,
 				B91CCD0023D1277F0025D02B /* SecondScreen.storyboard in Resources */,
 				85CDE3212374D41500EB461B /* tirangler.png in Resources */,
 				8574476C2370D7D4008222BA /* LaunchScreen.storyboard in Resources */,
 				85B55EA123737D5B0079E50F /* Calc.storyboard in Resources */,
 				857447692370D7D4008222BA /* Assets.xcassets in Resources */,
+				B9D9D66923DB8B5B00FEED51 /* golfLev2.storyboard in Resources */,
 				B91CCD0223D12A610025D02B /* lati.png in Resources */,
 				857447672370D7D2008222BA /* Main.storyboard in Resources */,
 				85CDE31F2374D14F00EB461B /* Pythag.storyboard in Resources */,

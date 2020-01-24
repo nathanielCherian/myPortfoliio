@@ -9,7 +9,7 @@
 #import "golfViewController.h"
 
 @implementation golfViewController
-@synthesize ball, hole, movesLabel;
+@synthesize ball, hole, movesLabel, nextLevelButton;
 int counter = 0;
 
 - (void)viewDidLoad {
@@ -17,6 +17,8 @@ int counter = 0;
   // changes hole image to be circular
   self.hole.layer.cornerRadius = .5*self.hole.layer.frame.size.height;
   self.hole.layer.masksToBounds = YES;
+  nextLevelButton.hidden = YES;
+
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -27,7 +29,7 @@ int counter = 0;
    
   // store point a touch began
   self.firstPoint = [touch locationInView:self.view];
-   
+    
 }
 
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -66,6 +68,7 @@ int counter = 0;
     [self.view setUserInteractionEnabled:YES];
     self.ball.center = CGPointMake(self.hole.center.x, self.hole.center.y);
     self.ball.alpha = 0.2;
+    nextLevelButton.hidden = NO;
   }
    
   // if ball slows/stops turn off game timer and turn user interaction back on
@@ -88,6 +91,10 @@ int counter = 0;
     }
     if (CGRectIntersectsRect(self.ball.frame, self.wall5.frame)) {
     self.ballVelocityY = speedDamping * self.ballVelocityY * (-1);
+    }
+    if (CGRectIntersectsRect(self.ball.frame, self.sandPit.frame)) {
+          self.ballVelocityX = speedDamping *  .2 * self.ballVelocityX;
+        self.ballVelocityY = speedDamping * .2 * self.ballVelocityY;
     }
 }
 

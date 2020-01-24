@@ -15,10 +15,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="golfball" translatesAutoresizingMaskIntoConstraints="NO" id="8JD-sZ-1JJ">
-                                <rect key="frame" x="173" y="728" width="69" height="54"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kkO-DK-GCn">
                                 <rect key="frame" x="346" y="55" width="48" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -43,13 +39,28 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="stone" translatesAutoresizingMaskIntoConstraints="NO" id="lGw-qP-I5s">
-                                <rect key="frame" x="87" y="289" width="240" height="41"/>
+                                <rect key="frame" x="105" y="289" width="211" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Oz-Ey-Rkc">
                                 <rect key="frame" x="180" y="137" width="54" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yGd-NS-8Lt">
+                                <rect key="frame" x="95" y="586" width="230" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="36"/>
+                                <state key="normal" title="Next Level --&gt;">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gga-J7-B0N" kind="show" id="LSz-Zu-qAs"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="golfball" translatesAutoresizingMaskIntoConstraints="NO" id="8JD-sZ-1JJ">
+                                <rect key="frame" x="191" y="744" width="38" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -59,6 +70,7 @@
                         <outlet property="ball" destination="8JD-sZ-1JJ" id="7yV-Ht-Y7N"/>
                         <outlet property="hole" destination="3Oz-Ey-Rkc" id="Ym9-Tg-hff"/>
                         <outlet property="movesLabel" destination="kkO-DK-GCn" id="5TQ-h9-iBU"/>
+                        <outlet property="nextLevelButton" destination="yGd-NS-8Lt" id="q8v-yz-vNt"/>
                         <outlet property="wall" destination="YL5-aj-52O" id="1H2-NG-iHa"/>
                         <outlet property="wall2" destination="jrJ-nl-JzS" id="kcg-LW-kae"/>
                         <outlet property="wall3" destination="mYb-gc-yFg" id="4b0-Jo-wUJ"/>
@@ -69,6 +81,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eK1-Qj-t4c" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="160.86956521739131" y="134.59821428571428"/>
+        </scene>
+        <!--golfLev2-->
+        <scene sceneID="iKs-Qc-Uwz">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="golfLev2" storyboardName="golfLev2" referencedIdentifier="golfLev2" id="gga-J7-B0N" userLabel="golfLev2" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="x1m-5s-Dfi"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n9a-la-yan" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="617" y="145"/>
         </scene>
     </scenes>
     <resources>
