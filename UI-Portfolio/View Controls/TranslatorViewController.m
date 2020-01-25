@@ -21,12 +21,13 @@
 
 - (IBAction)generate:(id)sender {
     const char *cInput = [translateString.text UTF8String];
+    const char *cInput2 = [translateString.text UTF8String];
     //long inputLength = translateString.text.length;
     // Method 1 - Array method
   //  output1.text = [NSString stringWithFormat:@"%s" , revXArray((char*)cInput, inputLength) ];
     
     shorthandLabel.text = [NSString stringWithFormat:@"%s" , shorty((char *)cInput)];
-    pigLatLabel.text = [NSString stringWithFormat:@"%s", pigLatti((char *)cInput)];
+    pigLatLabel.text = [NSString stringWithFormat:@"%s", pigLatti((char *)cInput2)];
 
 }
 
