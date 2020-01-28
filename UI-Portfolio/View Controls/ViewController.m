@@ -8,7 +8,9 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController (){
+        AVAudioPlayer *player;
+}
 
 @end
 
@@ -22,6 +24,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view. Ω
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"menuMusic" ofType:@"mp3"];
+    NSURL *url = [NSURL URLWithString:path];
+    player = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:NULL];
+    [player play];
     
     pythag.layer.cornerRadius = 35;
     search.layer.cornerRadius = 35;

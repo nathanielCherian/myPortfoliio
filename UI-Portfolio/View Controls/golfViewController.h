@@ -9,6 +9,7 @@
 #ifndef golfViewController_h
 #define golfViewController_h
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 // These values simulate speed and friction
 #define speedScale 0.20
 #define speedDamping 0.90 // friction rate

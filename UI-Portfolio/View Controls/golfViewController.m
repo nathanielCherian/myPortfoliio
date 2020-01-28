@@ -8,8 +8,18 @@
 
 #import "golfViewController.h"
 
+@interface golfViewController()
+{
+    AVAudioPlayer *player;
+    AVAudioPlayer *bouncePlayer;
+}
+
+@end
+
+
 @implementation golfViewController
 @synthesize ball, hole, movesLabel, nextLevelButton;
+
 int counter = 0;
 
 - (void)viewDidLoad {
@@ -23,6 +33,13 @@ int counter = 0;
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
   NSLog(@"touches Began");
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"golfHit" ofType:@"mp3"];
+    NSURL *url = [NSURL URLWithString:path];
+    player = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:NULL];
+    
+    [player play];
+    
   UITouch *touch = [touches anyObject];
   // turn user interaction off as swipe begins
   [self.view setUserInteractionEnabled:NO];
@@ -56,6 +73,8 @@ int counter = 0;
 
 -(void)moveBall {
   // simulates friction by reducing velocity
+    
+
   self.ballVelocityX = speedDamping * self.ballVelocityX;
   self.ballVelocityY = speedDamping * self.ballVelocityY;
    
@@ -68,6 +87,12 @@ int counter = 0;
     [self.view setUserInteractionEnabled:YES];
     self.ball.center = CGPointMake(self.hole.center.x, self.hole.center.y);
     self.ball.alpha = 0.2;
+      
+      NSString *path = [[NSBundle mainBundle] pathForResource:@"clapping" ofType:@"mp3"];
+      NSURL *url = [NSURL URLWithString:path];
+      player = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:NULL];
+      [player play];
+      
     nextLevelButton.hidden = NO;
   }
    
@@ -79,18 +104,42 @@ int counter = 0;
     
     if (CGRectIntersectsRect(self.ball.frame, self.wall.frame)) {
     self.ballVelocityX = speedDamping * self.ballVelocityX * (-1);
+        NSString *path = [[NSBundle mainBundle] pathForResource:@"ballsBounce" ofType:@"mp3"];
+        NSURL *url = [NSURL URLWithString:path];
+        bouncePlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:NULL];
+        [bouncePlayer play];
     }
     if (CGRectIntersectsRect(self.ball.frame, self.wall2.frame)) {
     self.ballVelocityX = speedDamping * self.ballVelocityX * (-1);
+          NSString *path = [[NSBundle mainBundle] pathForResource:@"ballsBounce" ofType:@"mp3"];
+          NSURL *url = [NSURL URLWithString:path];
+          bouncePlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:NULL];
+          [bouncePlayer play];
     }
     if (CGRectIntersectsRect(self.ball.frame, self.wall3.frame)) {
     self.ballVelocityY = speedDamping * self.ballVelocityY * (-1);
+        self.ballVelocityX = speedDamping * self.ballVelocityX * (-1);
+            NSString *path = [[NSBundle mainBundle] pathForResource:@"ballsBounce" ofType:@"mp3"];
+            NSURL *url = [NSURL URLWithString:path];
+            bouncePlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:NULL];
+            [bouncePlayer play];
     }
     if (CGRectIntersectsRect(self.ball.frame, self.wall4.frame)) {
     self.ballVelocityY = speedDamping * self.ballVelocityY * (-1);
+        self.ballVelocityX = speedDamping * self.ballVelocityX * (-1);
+           /* NSString *path = [[NSBundle mainBundle] pathForResource:@"ballsBounce" ofType:@"mp3"];
+            NSURL *url = [NSURL URLWithString:path];
+            bouncePlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:NULL];
+            [bouncePlayer play]; */
     }
     if (CGRectIntersectsRect(self.ball.frame, self.wall5.frame)) {
     self.ballVelocityY = speedDamping * self.ballVelocityY * (-1);
+        self.ballVelocityX = speedDamping * self.ballVelocityX * (-1);
+        
+        /*NSString *path = [[NSBundle mainBundle] pathForResource:@"ballsBounce" ofType:@"mp3"];
+        NSURL *url = [NSURL URLWithString:path];
+        bouncePlayer = [[AVAudioPlayer alloc]initWithContentsOfURL:url error:NULL];
+        [bouncePlayer play]; */
     }
     if (CGRectIntersectsRect(self.ball.frame, self.sandPit.frame)) {
           self.ballVelocityX = speedDamping *  .2 * self.ballVelocityX;
@@ -99,5 +148,5 @@ int counter = 0;
 }
 
 
-
 @end
+
