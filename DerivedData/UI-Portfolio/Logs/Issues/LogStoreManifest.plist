@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>FAF5300A-E4E2-4627-A21D-27919CD59F5A</key>
+		<key>8D32BEB9-9A51-4EE9-8057-B1ED6308A159</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,24 +15,24 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>FAF5300A-E4E2-4627-A21D-27919CD59F5A.xcactivitylog</string>
+			<string>8D32BEB9-9A51-4EE9-8057-B1ED6308A159.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>E</string>
 			</dict>
 			<key>signature</key>
 			<string>UI-Portfolio-gjzwmokurhmmqlbieiouledmtnhb</string>
 			<key>timeStartedRecording</key>
-			<real>601944713.37998497</real>
+			<real>602118422.65917695</real>
 			<key>timeStoppedRecording</key>
-			<real>601944717.16580403</real>
+			<real>602118422.92460895</real>
 			<key>title</key>
 			<string>Build target UI-Portfolio</string>
 			<key>uniqueIdentifier</key>
-			<string>FAF5300A-E4E2-4627-A21D-27919CD59F5A</string>
+			<string>8D32BEB9-9A51-4EE9-8057-B1ED6308A159</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

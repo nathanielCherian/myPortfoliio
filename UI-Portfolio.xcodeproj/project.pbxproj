@@ -24,6 +24,8 @@
 		85CDE3212374D41500EB461B /* tirangler.png in Resources */ = {isa = PBXBuildFile; fileRef = 85CDE3202374D41500EB461B /* tirangler.png */; };
 		85CDE3232374D50000EB461B /* Jumpers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CDE3222374D50000EB461B /* Jumpers.storyboard */; };
 		85CDE3252374D5C500EB461B /* monkeys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85CDE3242374D5C500EB461B /* monkeys.jpg */; };
+		B911DA3523E2397F00DE710E /* breakBlocks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B911DA3423E2397F00DE710E /* breakBlocks.storyboard */; };
+		B911DA3823E23A0100DE710E /* breakBlocksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B911DA3723E23A0100DE710E /* breakBlocksViewController.m */; };
 		B91CCD0023D1277F0025D02B /* SecondScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91CCCFF23D1277F0025D02B /* SecondScreen.storyboard */; };
 		B91CCD0223D12A610025D02B /* lati.png in Resources */ = {isa = PBXBuildFile; fileRef = B91CCD0123D12A610025D02B /* lati.png */; };
 		B91CCD0523D12A9F0025D02B /* TranslatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B91CCD0423D12A9F0025D02B /* TranslatorViewController.m */; };
@@ -70,6 +72,9 @@
 		85CDE3202374D41500EB461B /* tirangler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tirangler.png; sourceTree = "<group>"; };
 		85CDE3222374D50000EB461B /* Jumpers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Jumpers.storyboard; sourceTree = "<group>"; };
 		85CDE3242374D5C500EB461B /* monkeys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monkeys.jpg; sourceTree = "<group>"; };
+		B911DA3423E2397F00DE710E /* breakBlocks.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = breakBlocks.storyboard; sourceTree = "<group>"; };
+		B911DA3623E23A0100DE710E /* breakBlocksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = breakBlocksViewController.h; sourceTree = "<group>"; };
+		B911DA3723E23A0100DE710E /* breakBlocksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = breakBlocksViewController.m; sourceTree = "<group>"; };
 		B91CCCFF23D1277F0025D02B /* SecondScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondScreen.storyboard; sourceTree = "<group>"; };
 		B91CCD0123D12A610025D02B /* lati.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lati.png; path = "UI-Portfolio/Assets.xcassets/AppIcon.appiconset/lati.png"; sourceTree = SOURCE_ROOT; };
 		B91CCD0323D12A9F0025D02B /* TranslatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TranslatorViewController.h; sourceTree = "<group>"; };
@@ -172,6 +177,8 @@
 				B924BEE123D11DAC006791CB /* golfViewController.m */,
 				B91CCD0323D12A9F0025D02B /* TranslatorViewController.h */,
 				B91CCD0423D12A9F0025D02B /* TranslatorViewController.m */,
+				B911DA3623E23A0100DE710E /* breakBlocksViewController.h */,
+				B911DA3723E23A0100DE710E /* breakBlocksViewController.m */,
 			);
 			path = "View Controls";
 			sourceTree = "<group>";
@@ -190,6 +197,7 @@
 				B9D9D66A23DB91C200FEED51 /* golfLev3.storyboard */,
 				B91CCCFF23D1277F0025D02B /* SecondScreen.storyboard */,
 				B91CCD0623D12AC50025D02B /* translator.storyboard */,
+				B911DA3423E2397F00DE710E /* breakBlocks.storyboard */,
 				857447752370D7F9008222BA /* Models */,
 			);
 			path = Views;
@@ -242,7 +250,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1110;
-				ORGANIZATIONNAME = "Hale, Andrew";
+				ORGANIZATIONNAME = "Cherian, Nathaniel";
 				TargetAttributes = {
 					857447582370D7D2008222BA = {
 						CreatedOnToolsVersion = 11.1;
@@ -276,6 +284,7 @@
 				85CDE3252374D5C500EB461B /* monkeys.jpg in Resources */,
 				852B40C6237628820044AF2D /* button.png in Resources */,
 				B924BEDC23D11B0C006791CB /* golf.storyboard in Resources */,
+				B911DA3523E2397F00DE710E /* breakBlocks.storyboard in Resources */,
 				85B55EA4237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif in Resources */,
 				B9D0AFF423A2FACB00013458 /* reverse.storyboard in Resources */,
 				B9DE9EF523DF996F0063F253 /* clapping.mp3 in Resources */,
@@ -309,6 +318,7 @@
 				857447642370D7D2008222BA /* ViewController.m in Sources */,
 				B924BEE223D11DAC006791CB /* golfViewController.m in Sources */,
 				8574475E2370D7D2008222BA /* AppDelegate.m in Sources */,
+				B911DA3823E23A0100DE710E /* breakBlocksViewController.m in Sources */,
 				B91CCD0523D12A9F0025D02B /* TranslatorViewController.m in Sources */,
 				8574476F2370D7D4008222BA /* main.m in Sources */,
 				857447612370D7D2008222BA /* SceneDelegate.m in Sources */,
@@ -456,12 +466,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7BNW842H4;
 				INFOPLIST_FILE = "UI-Portfolio/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "button.UI-Portfolio";
+				PRODUCT_BUNDLE_IDENTIFIER = compsciNC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
