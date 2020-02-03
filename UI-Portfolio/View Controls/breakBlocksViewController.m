@@ -20,8 +20,9 @@ int start = 0;
     //self.ball.center = CGPointMake(self.ball.center.x -100, self.ball.center.y -100);
     // Do any additional setup after loading the view.
     start = 1;
-    self.balVelocityX = 5;
-    self.balVelocityY = 5;
+    self.balVelocityX = 20;
+    self.balVelocityY = 20;
+    self.gameTimer = [NSTimer scheduledTimerWithTimeInterval:.05 target:self selector:@selector(moveWalls) userInfo:nil repeats:YES];
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -47,7 +48,7 @@ int start = 0;
 
     
 
-     self.gameTimer = [NSTimer scheduledTimerWithTimeInterval:.05 target:self selector:@selector(moveWalls) userInfo:nil repeats:YES];
+
 }
 
 -(void)moveWalls {

@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>application-identifier</key>
-	<string>H7BNW842H4.button.UI-Portfolio</string>
+	<string>H7BNW842H4.compsciNC</string>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>H7BNW842H4.button.UI-Portfolio</string>
+		<string>H7BNW842H4.compsciNC</string>
 	</array>
 </dict>
 </plist>
