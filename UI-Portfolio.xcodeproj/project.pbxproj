@@ -24,8 +24,6 @@
 		85CDE3212374D41500EB461B /* tirangler.png in Resources */ = {isa = PBXBuildFile; fileRef = 85CDE3202374D41500EB461B /* tirangler.png */; };
 		85CDE3232374D50000EB461B /* Jumpers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85CDE3222374D50000EB461B /* Jumpers.storyboard */; };
 		85CDE3252374D5C500EB461B /* monkeys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85CDE3242374D5C500EB461B /* monkeys.jpg */; };
-		B90B8DCD23EB7C070044E39C /* rabbits.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B90B8DCC23EB7C070044E39C /* rabbits.storyboard */; };
-		B90B8DD023EB7D580044E39C /* rabbitsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B90B8DCF23EB7D580044E39C /* rabbitsViewController.m */; };
 		B911DA3523E2397F00DE710E /* breakBlocks.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B911DA3423E2397F00DE710E /* breakBlocks.storyboard */; };
 		B911DA3823E23A0100DE710E /* breakBlocksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B911DA3723E23A0100DE710E /* breakBlocksViewController.m */; };
 		B919D83423E8D0860045381D /* reactionTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B919D83323E8D0860045381D /* reactionTest.storyboard */; };
@@ -40,6 +38,8 @@
 		B925EE0723EA31A100AC0930 /* cir.png in Resources */ = {isa = PBXBuildFile; fileRef = B925EE0623EA31A000AC0930 /* cir.png */; };
 		B92A1D3723E0F1C2002A2C51 /* menuMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B92A1D3623E0F1C2002A2C51 /* menuMusic.mp3 */; };
 		B953905E237CBE90003F7A44 /* rectController.m in Sources */ = {isa = PBXBuildFile; fileRef = B953905D237CBE90003F7A44 /* rectController.m */; };
+		B9827D9D23ECC531001C8053 /* blackjack.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9827D9C23ECC531001C8053 /* blackjack.storyboard */; };
+		B9827DA023ECC56F001C8053 /* blackjackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9827D9F23ECC56F001C8053 /* blackjackViewController.m */; };
 		B9D0AFF423A2FACB00013458 /* reverse.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D0AFF323A2FACB00013458 /* reverse.storyboard */; };
 		B9D0AFF723A2FADC00013458 /* ReverseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9D0AFF623A2FADC00013458 /* ReverseViewController.m */; };
 		B9D0AFFD23A2FB8000013458 /* Reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = B9D0AFFC23A2FB8000013458 /* Reverse.c */; };
@@ -55,7 +55,7 @@
 		852B40C2237626FD0044AF2D /* PythagController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PythagController.m; sourceTree = "<group>"; };
 		852B40C4237627090044AF2D /* PythagController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PythagController.h; sourceTree = "<group>"; };
 		852B40C5237628820044AF2D /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
-		857447592370D7D2008222BA /* UI-Portfolio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UI-Portfolio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		857447592370D7D2008222BA /* The System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8574475C2370D7D2008222BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8574475D2370D7D2008222BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		8574475F2370D7D2008222BA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -77,9 +77,6 @@
 		85CDE3202374D41500EB461B /* tirangler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tirangler.png; sourceTree = "<group>"; };
 		85CDE3222374D50000EB461B /* Jumpers.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Jumpers.storyboard; sourceTree = "<group>"; };
 		85CDE3242374D5C500EB461B /* monkeys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monkeys.jpg; sourceTree = "<group>"; };
-		B90B8DCC23EB7C070044E39C /* rabbits.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = rabbits.storyboard; sourceTree = "<group>"; };
-		B90B8DCE23EB7D580044E39C /* rabbitsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rabbitsViewController.h; sourceTree = "<group>"; };
-		B90B8DCF23EB7D580044E39C /* rabbitsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rabbitsViewController.m; sourceTree = "<group>"; };
 		B911DA3423E2397F00DE710E /* breakBlocks.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = breakBlocks.storyboard; sourceTree = "<group>"; };
 		B911DA3623E23A0100DE710E /* breakBlocksViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = breakBlocksViewController.h; sourceTree = "<group>"; };
 		B911DA3723E23A0100DE710E /* breakBlocksViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = breakBlocksViewController.m; sourceTree = "<group>"; };
@@ -99,6 +96,9 @@
 		B92A1D3623E0F1C2002A2C51 /* menuMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = menuMusic.mp3; sourceTree = "<group>"; };
 		B953905D237CBE90003F7A44 /* rectController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rectController.m; sourceTree = "<group>"; };
 		B953905F237CBEA1003F7A44 /* rectController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rectController.h; sourceTree = "<group>"; };
+		B9827D9C23ECC531001C8053 /* blackjack.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = blackjack.storyboard; sourceTree = "<group>"; };
+		B9827D9E23ECC56F001C8053 /* blackjackViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = blackjackViewController.h; sourceTree = "<group>"; };
+		B9827D9F23ECC56F001C8053 /* blackjackViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = blackjackViewController.m; sourceTree = "<group>"; };
 		B9D0AFF323A2FACB00013458 /* reverse.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = reverse.storyboard; sourceTree = "<group>"; };
 		B9D0AFF523A2FADC00013458 /* ReverseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseViewController.h; sourceTree = "<group>"; };
 		B9D0AFF623A2FADC00013458 /* ReverseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseViewController.m; sourceTree = "<group>"; };
@@ -135,7 +135,7 @@
 		8574475A2370D7D2008222BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				857447592370D7D2008222BA /* UI-Portfolio.app */,
+				857447592370D7D2008222BA /* The System.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -194,8 +194,8 @@
 				B911DA3723E23A0100DE710E /* breakBlocksViewController.m */,
 				B919D83523E8D0A30045381D /* reactionTestViewController.h */,
 				B919D83623E8D0A30045381D /* reactionTestViewController.m */,
-				B90B8DCE23EB7D580044E39C /* rabbitsViewController.h */,
-				B90B8DCF23EB7D580044E39C /* rabbitsViewController.m */,
+				B9827D9E23ECC56F001C8053 /* blackjackViewController.h */,
+				B9827D9F23ECC56F001C8053 /* blackjackViewController.m */,
 			);
 			path = "View Controls";
 			sourceTree = "<group>";
@@ -216,7 +216,7 @@
 				B91CCD0623D12AC50025D02B /* translator.storyboard */,
 				B911DA3423E2397F00DE710E /* breakBlocks.storyboard */,
 				B919D83323E8D0860045381D /* reactionTest.storyboard */,
-				B90B8DCC23EB7C070044E39C /* rabbits.storyboard */,
+				B9827D9C23ECC531001C8053 /* blackjack.storyboard */,
 				857447752370D7F9008222BA /* Models */,
 			);
 			path = Views;
@@ -259,7 +259,7 @@
 			);
 			name = "UI-Portfolio";
 			productName = "UI-Portfolio";
-			productReference = 857447592370D7D2008222BA /* UI-Portfolio.app */;
+			productReference = 857447592370D7D2008222BA /* The System.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -303,13 +303,13 @@
 				B92A1D3723E0F1C2002A2C51 /* menuMusic.mp3 in Resources */,
 				85CDE3252374D5C500EB461B /* monkeys.jpg in Resources */,
 				852B40C6237628820044AF2D /* button.png in Resources */,
+				B9827D9D23ECC531001C8053 /* blackjack.storyboard in Resources */,
 				B924BEDC23D11B0C006791CB /* golf.storyboard in Resources */,
 				B911DA3523E2397F00DE710E /* breakBlocks.storyboard in Resources */,
 				85B55EA4237382CC0079E50F /* EasyDopeyLeafbird-max-1mb.gif in Resources */,
 				B9D0AFF423A2FACB00013458 /* reverse.storyboard in Resources */,
 				B9DE9EF523DF996F0063F253 /* clapping.mp3 in Resources */,
 				B91CCD0723D12AC50025D02B /* translator.storyboard in Resources */,
-				B90B8DCD23EB7C070044E39C /* rabbits.storyboard in Resources */,
 				B9D9D66B23DB91C200FEED51 /* golfLev3.storyboard in Resources */,
 				B91CCD0023D1277F0025D02B /* SecondScreen.storyboard in Resources */,
 				85CDE3212374D41500EB461B /* tirangler.png in Resources */,
@@ -342,8 +342,8 @@
 				8574475E2370D7D2008222BA /* AppDelegate.m in Sources */,
 				B911DA3823E23A0100DE710E /* breakBlocksViewController.m in Sources */,
 				B91CCD0523D12A9F0025D02B /* TranslatorViewController.m in Sources */,
-				B90B8DD023EB7D580044E39C /* rabbitsViewController.m in Sources */,
 				B919D83723E8D0A30045381D /* reactionTestViewController.m in Sources */,
+				B9827DA023ECC56F001C8053 /* blackjackViewController.m in Sources */,
 				8574476F2370D7D4008222BA /* main.m in Sources */,
 				857447612370D7D2008222BA /* SceneDelegate.m in Sources */,
 				B953905E237CBE90003F7A44 /* rectController.m in Sources */,
@@ -497,7 +497,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = compsciNC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "The System";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -513,7 +513,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "button.UI-Portfolio";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "The System";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

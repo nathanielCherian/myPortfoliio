@@ -40,7 +40,7 @@ float gameTime;
 
 
 int r;
-int temp = 0;
+int temp1 = 0;
 float lilGameTime = 0;
 -(void)moveWalls {
     lilGameTime = lilGameTime + .001;
@@ -51,13 +51,13 @@ float lilGameTime = 0;
     NSLog(@"%d", r);
         if(r == 33){
             self.gameLabel.hidden = YES;
-            temp = r;
+            temp1 = r;
             NSLog(@"HEHE");
             gameTime = gameTime + .001;
             lilGameTime = 0;
             self.clicked.hidden = NO;
         }
-        if(temp == 33){
+        if(temp1 == 33){
             NSLog(@"HAHA");
             //gameTime = gameTime + .001;
         }
@@ -69,10 +69,11 @@ float lilGameTime = 0;
     timeLabel.text = [NSString stringWithFormat:@"%f" , lilGameTime];
     self.timeLabel.hidden = NO;
     self.resetButton.hidden = NO;
+    /*
     UIImageView *imgView=[[UIImageView alloc]initWithFrame:CGRectMake(rand() % 500,rand() % 700, rand() % 600, rand() % 600)];
     [imgView setImage:[UIImage imageNamed:@"s3xyZevmydaddy.jpg"]];//if your images extension is .png than no need to write extension of an image..
     [self.view addSubview:imgView];
-    //[self.gameTimer invalidate];
+    //[self.gameTimer invalidate]; */
 }
 
 - (IBAction)resetClicked:(id)sender {
@@ -82,7 +83,7 @@ float lilGameTime = 0;
     self.firstClicked.hidden = YES;
     self.timeLabel.hidden = YES;
     self.resetButton.hidden = YES;
-    temp = 0;
+    temp1 = 0;
 }
 
 
