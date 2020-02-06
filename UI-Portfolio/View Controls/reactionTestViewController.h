@@ -18,6 +18,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UILabel *gameLabel;
 @property (weak, nonatomic) IBOutlet UIButton *clicked;
 @property (weak, nonatomic) IBOutlet UIButton *firstClicked;
+@property (weak, nonatomic) IBOutlet UIButton *resetButton;
+
 
 
 

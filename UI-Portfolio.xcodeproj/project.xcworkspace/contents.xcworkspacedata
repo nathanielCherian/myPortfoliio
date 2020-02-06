@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:restart-icon-26.png">
+   </FileRef>
+   <FileRef
       location = "self:UI-Portfolio.xcodeproj">
    </FileRef>
 </Workspace>
