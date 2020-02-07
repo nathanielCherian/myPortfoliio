@@ -16,21 +16,70 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aoz-5R-66C">
-                                <rect key="frame" x="195" y="556" width="43" height="30"/>
+                                <rect key="frame" x="168" y="433" width="78" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="NEXT "/>
+                                <state key="normal" title="Start Game"/>
                                 <connections>
-                                    <action selector="generate:" destination="svK-HC-U4R" eventType="touchUpInside" id="0IE-L8-VqV"/>
+                                    <action selector="startGame:" destination="svK-HC-U4R" eventType="touchUpInside" id="GP4-Bu-rLm"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M9O-pg-pId">
+                                <rect key="frame" x="12" y="606" width="154" height="226"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vq7-9p-baT">
+                                <rect key="frame" x="108" y="606" width="154" height="226"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZnQ-U2-N95">
+                                <rect key="frame" x="204" y="606" width="154" height="226"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4gv-lO-TwB">
+                                <rect key="frame" x="13" y="105" width="154" height="220"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NNe-eB-qTc">
+                                <rect key="frame" x="105" y="105" width="141" height="220"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZEs-Py-0fO">
+                                <rect key="frame" x="204" y="526" width="37" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPa-Q4-E6p">
+                                <rect key="frame" x="66" y="530" width="46" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Hit"/>
+                                <connections>
+                                    <action selector="hit:" destination="svK-HC-U4R" eventType="touchUpInside" id="nyz-kj-imN"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fR5-CF-TEi">
+                                <rect key="frame" x="303" y="606" width="154" height="226"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="oem-48-CAu"/>
                     </view>
+                    <connections>
+                        <outlet property="house1" destination="4gv-lO-TwB" id="ZZp-MP-7it"/>
+                        <outlet property="house2" destination="NNe-eB-qTc" id="ltb-wn-tx3"/>
+                        <outlet property="player1" destination="M9O-pg-pId" id="kCu-H5-rUF"/>
+                        <outlet property="player2" destination="vq7-9p-baT" id="2Nw-qi-Bmo"/>
+                        <outlet property="player3" destination="ZnQ-U2-N95" id="Phx-2a-PLq"/>
+                        <outlet property="player4" destination="fR5-CF-TEi" id="cSE-jS-MlP"/>
+                        <outlet property="startButton" destination="aoz-5R-66C" id="Pv6-nT-Ccl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fyJ-GZ-X6x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="384" y="-299"/>
+            <point key="canvasLocation" x="382.60869565217394" y="-299.33035714285711"/>
         </scene>
     </scenes>
 </document>

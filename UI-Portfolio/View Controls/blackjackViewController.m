@@ -13,13 +13,15 @@
 @end
 
 @implementation blackjackViewController
+@synthesize startButton, player1, player2, player3, player4, house1, house2;
 
 
 int temp = 0;
+int hitt = 0;
 /*
 int deckArray[52] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51}; */
 int deckArray[52];
-int deckValues[52] = {2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9, 10, 10, 10, 10, 11, 11, 11, 11, 12, 12, 12, 12, 13, 13, 13, 14, 14, 14, 14};;
+int deckValues[52] = {2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6, 7, 7, 7, 7, 8, 8, 8, 8, 9, 9, 9, 9, 10, 10, 10, 10, 11, 11, 11, 11, 12, 12, 12, 12, 13, 13, 13, 14, 14, 14, 14};
 
 
 
@@ -36,19 +38,46 @@ int deckValues[52] = {2, 2, 2, 2, 3, 3, 3, 3, 4, 4, 4, 4, 5, 5, 5, 5, 6, 6, 6, 6
     int n = sizeof(deckArray)/ sizeof(deckArray[0]);
     randomize(deckArray, n);
     
+    
+
+    
 }
 
-- (IBAction)generate:(id)sender {
+- (IBAction)startGame:(id)sender {
+    
+    startButton.hidden = YES;
     
     
-    UIImageView *imgView=[[UIImageView alloc]initWithFrame:CGRectMake(170,200, 100,150)];
-    [imgView setImage:[UIImage imageNamed:self.cards[deckArray[temp]]]];//if your images extension is .png than no need to write extension of an image..
-    [self.view addSubview:imgView];
+    [player1 setImage:[UIImage imageNamed:self.cards[deckArray[temp]]]];//if your images extension is .png than no need to write extension of an image..
+    [self.view addSubview:player1];
+    moveUp();
     
-    if(temp < 52){
-    temp++;
+    [player2 setImage:[UIImage imageNamed:self.cards[deckArray[temp]]]];//if your images extension is .png than no need to write extension of an image..
+    [self.view addSubview:player2];
+    moveUp();
+    
+    [house1 setImage:[UIImage imageNamed:@"cardBack.png"]];//if your images extension is .png than no need to write extension of an image..
+    [self.view addSubview:house1];
+    moveUp();
+    
+    [house2 setImage:[UIImage imageNamed:self.cards[deckArray[temp]]]];//if your images extension is .png than no need to write extension of an image..
+    [self.view addSubview:house2];
+    moveUp();
+
+}
+
+- (IBAction)hit:(id)sender {
+    if(hitt == 0){
+        [player3 setImage:[UIImage imageNamed:self.cards[deckArray[temp]]]];//if your images extension is .png than no need to write extension of an image..
+        [self.view addSubview:player3];
+        moveUp();
+        hitt++;
+    }else if(hitt == 1){
+        [player4 setImage:[UIImage imageNamed:self.cards[deckArray[temp]]]];//if your images extension is .png than no need to write extension of an image..
+        [self.view addSubview:player4];
+        moveUp();
+        hitt++;
     }
-    
 }
 
 
@@ -82,6 +111,11 @@ void swap (int *a, int *b)
     *b = temp;
 }
 
+void moveUp(){
+    if(temp < 52){
+    temp++;
+    }
+}
 
 
 
