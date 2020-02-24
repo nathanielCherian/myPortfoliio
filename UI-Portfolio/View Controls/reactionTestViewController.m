@@ -69,6 +69,9 @@ float lilGameTime = 0;
     timeLabel.text = [NSString stringWithFormat:@"%f" , lilGameTime];
     self.timeLabel.hidden = NO;
     self.resetButton.hidden = NO;
+    self.clicked.hidden = YES;
+    self.view.backgroundColor = [UIColor redColor];
+
     /*
     UIImageView *imgView=[[UIImageView alloc]initWithFrame:CGRectMake(rand() % 500,rand() % 700, rand() % 600, rand() % 600)];
     [imgView setImage:[UIImage imageNamed:@"s3xyZevmydaddy.jpg"]];//if your images extension is .png than no need to write extension of an image..
@@ -84,6 +87,8 @@ float lilGameTime = 0;
     self.timeLabel.hidden = YES;
     self.resetButton.hidden = YES;
     temp1 = 0;
+    self.view.backgroundColor = [UIColor greenColor];
+
 }
 
 

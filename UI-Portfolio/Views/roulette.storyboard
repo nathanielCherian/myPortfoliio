@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Roulette View Controller-->
+        <scene sceneID="pqV-bg-K3l">
+            <objects>
+                <viewController storyboardIdentifier="roulette" id="D3L-ST-r6W" customClass="rouletteViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SIb-hy-ZUi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rouletteWheel" translatesAutoresizingMaskIntoConstraints="NO" id="vlr-Ze-Tf0">
+                                <rect key="frame" x="-13" y="107" width="440" height="530"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ball2" translatesAutoresizingMaskIntoConstraints="NO" id="CRD-7z-Pzz">
+                                <rect key="frame" x="115" y="275" width="192" height="192"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nq5-VZ-aw5">
+                                <rect key="frame" x="190" y="620" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="SPIN"/>
+                                <connections>
+                                    <action selector="spin:" destination="D3L-ST-r6W" eventType="touchUpInside" id="f5D-M5-QYe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZeC-Si-ubk">
+                                <rect key="frame" x="303" y="708" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="BLACK"/>
+                                <connections>
+                                    <action selector="blackChoice:" destination="D3L-ST-r6W" eventType="touchUpInside" id="9va-qm-kKr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lcd-CJ-3xB">
+                                <rect key="frame" x="190" y="763" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TPg-Kw-NM9">
+                                <rect key="frame" x="79" y="708" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="RED"/>
+                                <connections>
+                                    <action selector="redChoice:" destination="D3L-ST-r6W" eventType="touchUpInside" id="YG6-g7-z4y"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="MBz-i5-ubR"/>
+                    </view>
+                    <connections>
+                        <outlet property="ball" destination="CRD-7z-Pzz" id="cJR-pT-ed6"/>
+                        <outlet property="blackButton" destination="ZeC-Si-ubk" id="cry-NC-bu2"/>
+                        <outlet property="infoLabel" destination="Lcd-CJ-3xB" id="Y4B-6s-Ajb"/>
+                        <outlet property="redButton" destination="TPg-Kw-NM9" id="9EC-E3-6di"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LMi-dp-D6A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="147.82608695652175" y="0.0"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ball2" width="480" height="480"/>
+        <image name="rouletteWheel" width="512" height="512"/>
+    </resources>
+</document>

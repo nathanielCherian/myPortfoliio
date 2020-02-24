@@ -91,7 +91,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="29"/>
                                 <size key="titleShadowOffset" width="-0.5" height="-0.5"/>
-                                <state key="normal" title="Blackjack">
+                                <state key="normal" title="Game Menu">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="medium" weight="bold"/>
                                 </state>
@@ -158,10 +158,10 @@
             </objects>
             <point key="canvasLocation" x="617" y="351"/>
         </scene>
-        <!--blackjack-->
+        <!--gameMenu-->
         <scene sceneID="Hm6-Ht-qDQ">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="blackjack" storyboardName="blackjack" referencedIdentifier="blackjack" id="u3q-Cx-mRj" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="gameMenu" storyboardName="gameMenu" referencedIdentifier="gameMenu" id="u3q-Cx-mRj" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="yod-hs-1Qn"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BrH-tQ-eqw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
