@@ -13,34 +13,78 @@
 @end
 
 @implementation rouletteViewController
-@synthesize ball, redButton, blackButton, infoLabel;
+@synthesize ball, infoLabel, chip, spinButton, balanceLabel;
 
+    
 
 float x = 0;
+int balanceDisplayed = 100;
+int fBalance = 100;
+int localCoins = 0;
+int betCoins = 0;
+int redplat = 0;
+int blackplat = 0;
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     long random;
     x = 0;
-    /*
-    CABasicAnimation *fullRotation = [CABasicAnimation animationWithKeyPath:@"transform.rotation"];
-    fullRotation.fromValue = [NSNumber numberWithFloat:0];
-    fullRotation.toValue = [NSNumber numberWithFloat:((360*M_PI)/180)];
-    fullRotation.duration = 1.5;
-    fullRotation.repeatCount = 2.5;
-    [self.ball.layer addAnimation:fullRotation forKey:@"360"]; */
     
-   // ball.center	= CGPointMake(0, 0);
-    
-    /*
-    self.gameTimer = [NSTimer scheduledTimerWithTimeInterval:.005 target:self selector:@selector(rotateImage) userInfo:nil repeats:YES];*/
-    /*
-    ball.transform = CGAffineTransformMakeRotation(DEGREES_TO_RADIANS(9.72));
-    NSLog(@"%f", DEGREES_TO_RADIANS(360));
-     */
-    
+    balanceLabel.text = [NSString stringWithFormat:@"%d", balanceDisplayed];
 }
+
+- (IBAction)twentyFive:(id)sender {
+    [self betValidator:25];
+}
+
+- (IBAction)fifty:(id)sender {
+    [self betValidator:50];
+}
+
+- (IBAction)hundo:(id)sender {
+    [self betValidator:100];
+}
+
+- (IBAction)twohundo:(id)sender {
+    [self betValidator:200];
+}
+
+-(void)betValidator:(int)buttonVal{
+    
+    if (fBalance - buttonVal >= 0) {
+        fBalance = fBalance - buttonVal;
+        localCoins = localCoins + buttonVal;
+    } else{
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"ALERT" message:@"Insufficent balance" preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *actionOK = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction*  _Nonnull action){
+        }];
+        [alert addAction:actionOK];
+        [self presentViewController:alert animated:YES completion:nil];
+    }
+}
+
+- (IBAction)redPlate:(id)sender {
+    redplat = redplat + localCoins;
+    NSString *string = [NSString stringWithFormat:@"%d", redplat];
+    [self.redButton setTitle:string forState:UIControlStateNormal];
+    localCoins = 0;
+    balanceDisplayed = fBalance;
+    balanceLabel.text = [NSString stringWithFormat:@"%d", balanceDisplayed];
+}
+
+- (IBAction)blackPlate:(id)sender {
+    blackplat = blackplat + localCoins;
+    NSString *string = [NSString stringWithFormat:@"%d", blackplat];
+    [self.blackButton setTitle:string forState:UIControlStateNormal];
+    localCoins = 0;
+    balanceDisplayed = fBalance;
+    balanceLabel.text = [NSString stringWithFormat:@"%d", balanceDisplayed];
+}
+
+
+
+
 
 int randomInt;
 int randomDegrees;
@@ -48,13 +92,13 @@ int choice;
 int rouletteHole, color; // 0 = red 1 = black 3 = green
 
 - (IBAction)spin:(id)sender {
-    redButton.hidden = YES;
-    blackButton.hidden = YES;
+    spinButton.hidden = YES;
     x = 0;
     randomInt = rand() % 37;
     randomDegrees = randomInt * 9.7297;
     randomDegrees = randomDegrees + 720;
     self.gameTimer = [NSTimer scheduledTimerWithTimeInterval:.0035 target:self selector:@selector(rotateImage) userInfo:nil repeats:YES];
+    
 }
 
 
@@ -69,20 +113,49 @@ int rouletteHole, color; // 0 = red 1 = black 3 = green
         NSLog(@"%d", rouletteHole);
         if (color == 0) {
             infoLabel.text = [NSString stringWithFormat:@"RED WINS"];
+            fBalance = fBalance + (2 * redplat);
+            balanceDisplayed = fBalance;
+            balanceLabel.text = [NSString stringWithFormat:@"%d", balanceDisplayed];
+            redplat = 0;
+            blackplat = 0;
+            [self.redButton setTitle:@"" forState:UIControlStateNormal];
+            [self.blackButton setTitle:@"" forState:UIControlStateNormal];
+
         } else if (color == 1){
         infoLabel.text = [NSString stringWithFormat:@"BLACK WINS"];
+            fBalance = fBalance + (2 * blackplat);
+            balanceDisplayed = fBalance;
+            balanceLabel.text = [NSString stringWithFormat:@"%d", balanceDisplayed];
+            redplat = 0;
+            blackplat = 0;
+            [self.redButton setTitle:@"" forState:UIControlStateNormal];
+            [self.blackButton setTitle:@"" forState:UIControlStateNormal];
+
         }
+        spinButton.hidden = NO;
     }
     
 }
 
-- (IBAction)redChoice:(id)sender {
-    choice = 0;
+
+- (void)touchesMoved:(NSSet *)touches withEvent:(UIEvent *)event {
+    UITouch *aTouch = [touches anyObject];
+    
+    
+    /*
+    CGPoint location = [aTouch locationInView:self.view];
+    if(CGRectContainsPoint(self.chip.frame,location)) {
+        [UIView beginAnimations:@"Dragging A DraggableView" context:nil];
+        self.chip.center = location;
+        [UIView commitAnimations];
+        self.chip.alpha = 1;
+
+    }else {
+    }
+     */
 }
 
-- (IBAction)blackChoice:(id)sender {
-    choice = 1;
-}
+
 
 
 

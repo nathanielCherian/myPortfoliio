@@ -15,10 +15,19 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface rouletteViewController : UIViewController
 @property (strong, nonatomic) IBOutlet UIImageView *ball;
-@property (strong, nonatomic) NSTimer *gameTimer;
+@property (strong, nonatomic) IBOutlet UIImageView *chip;
+@property (weak, nonatomic) IBOutlet UIButton *spinButton;
 @property (weak, nonatomic) IBOutlet UIButton *redButton;
 @property (weak, nonatomic) IBOutlet UIButton *blackButton;
+@property (weak, nonatomic) IBOutlet UIButton *firButton;
+@property (weak, nonatomic) IBOutlet UIButton *secButton;
+@property (weak, nonatomic) IBOutlet UIButton *thirButton;
+@property (weak, nonatomic) IBOutlet UIButton *fourButton;
+
+@property (strong, nonatomic) NSTimer *gameTimer;
+
 @property (weak, nonatomic) IBOutlet UILabel *infoLabel;
+@property (weak, nonatomic) IBOutlet UILabel *balanceLabel;
 
 
 
