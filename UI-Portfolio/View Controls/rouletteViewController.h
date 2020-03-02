@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UIButton *spinButton;
 @property (weak, nonatomic) IBOutlet UIButton *redButton;
 @property (weak, nonatomic) IBOutlet UIButton *blackButton;
+@property (weak, nonatomic) IBOutlet UIButton *greenButton;
 @property (weak, nonatomic) IBOutlet UIButton *firButton;
 @property (weak, nonatomic) IBOutlet UIButton *secButton;
 @property (weak, nonatomic) IBOutlet UIButton *thirButton;

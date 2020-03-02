@@ -40,6 +40,108 @@
 			<key>uniqueIdentifier</key>
 			<string>0900C21A-2DCF-4006-888F-826333174818</string>
 		</dict>
+		<key>2191F6EB-84A5-462B-A972-D51442AF269A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>2191F6EB-84A5-462B-A972-D51442AF269A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UI-Portfolio project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UI-Portfolio</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug The System</string>
+			<key>timeStartedRecording</key>
+			<real>604879725.91380894</real>
+			<key>timeStoppedRecording</key>
+			<real>604880093.05981302</real>
+			<key>title</key>
+			<string>Debug The System</string>
+			<key>uniqueIdentifier</key>
+			<string>2191F6EB-84A5-462B-A972-D51442AF269A</string>
+		</dict>
+		<key>54B4EBF8-CE3B-477A-A9CD-D955A5BFE810</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>54B4EBF8-CE3B-477A-A9CD-D955A5BFE810.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UI-Portfolio project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UI-Portfolio</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug The System</string>
+			<key>timeStartedRecording</key>
+			<real>604880255.45675898</real>
+			<key>timeStoppedRecording</key>
+			<real>604880726.70064199</real>
+			<key>title</key>
+			<string>Debug The System</string>
+			<key>uniqueIdentifier</key>
+			<string>54B4EBF8-CE3B-477A-A9CD-D955A5BFE810</string>
+		</dict>
+		<key>56AC1734-94C9-4550-A3AE-5DDED0E03FF3</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>56AC1734-94C9-4550-A3AE-5DDED0E03FF3.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UI-Portfolio project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UI-Portfolio</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug The System</string>
+			<key>timeStartedRecording</key>
+			<real>604878944.85453701</real>
+			<key>timeStoppedRecording</key>
+			<real>604879670.38041103</real>
+			<key>title</key>
+			<string>Debug The System</string>
+			<key>uniqueIdentifier</key>
+			<string>56AC1734-94C9-4550-A3AE-5DDED0E03FF3</string>
+		</dict>
 		<key>6CF0E303-4292-463E-87A5-2647526A35AD</key>
 		<dict>
 			<key>className</key>
@@ -73,6 +175,142 @@
 			<string>Debug The System</string>
 			<key>uniqueIdentifier</key>
 			<string>6CF0E303-4292-463E-87A5-2647526A35AD</string>
+		</dict>
+		<key>87A76BC0-38C2-4377-BFC7-1114B5F42C99</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>87A76BC0-38C2-4377-BFC7-1114B5F42C99.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UI-Portfolio project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UI-Portfolio</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug The System</string>
+			<key>timeStartedRecording</key>
+			<real>604880092.91549003</real>
+			<key>timeStoppedRecording</key>
+			<real>604880250.67089701</real>
+			<key>title</key>
+			<string>Debug The System</string>
+			<key>uniqueIdentifier</key>
+			<string>87A76BC0-38C2-4377-BFC7-1114B5F42C99</string>
+		</dict>
+		<key>ABE836E9-90F9-4989-ADA6-1D2EAF81C61A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>ABE836E9-90F9-4989-ADA6-1D2EAF81C61A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UI-Portfolio project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UI-Portfolio</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug The System</string>
+			<key>timeStartedRecording</key>
+			<real>604878915.85067904</real>
+			<key>timeStoppedRecording</key>
+			<real>604878945.05038202</real>
+			<key>title</key>
+			<string>Debug The System</string>
+			<key>uniqueIdentifier</key>
+			<string>ABE836E9-90F9-4989-ADA6-1D2EAF81C61A</string>
+		</dict>
+		<key>C2DD70E7-BC93-4B7E-8621-C91EF22D74F8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C2DD70E7-BC93-4B7E-8621-C91EF22D74F8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UI-Portfolio project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UI-Portfolio</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug The System</string>
+			<key>timeStartedRecording</key>
+			<real>604878707.69208801</real>
+			<key>timeStoppedRecording</key>
+			<real>604878915.38381898</real>
+			<key>title</key>
+			<string>Debug The System</string>
+			<key>uniqueIdentifier</key>
+			<string>C2DD70E7-BC93-4B7E-8621-C91EF22D74F8</string>
+		</dict>
+		<key>C3F6505F-AED9-4F56-A2C7-299D5933860D</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>C3F6505F-AED9-4F56-A2C7-299D5933860D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UI-Portfolio project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UI-Portfolio</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Debug The System</string>
+			<key>timeStartedRecording</key>
+			<real>604879681.04116094</real>
+			<key>timeStoppedRecording</key>
+			<real>604879724.28905594</real>
+			<key>title</key>
+			<string>Debug The System</string>
+			<key>uniqueIdentifier</key>
+			<string>C3F6505F-AED9-4F56-A2C7-299D5933860D</string>
 		</dict>
 		<key>D1510A74-39F4-49BF-905D-2BEAFC34EB7F</key>
 		<dict>

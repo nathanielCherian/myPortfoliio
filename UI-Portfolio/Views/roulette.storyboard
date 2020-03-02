@@ -46,6 +46,9 @@
                                 <rect key="frame" x="55" y="662" width="76" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal">
+                                    <color key="titleColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="redPlate:" destination="D3L-ST-r6W" eventType="touchUpInside" id="iPl-9g-G2u"/>
                                 </connections>
@@ -54,6 +57,10 @@
                                 <rect key="frame" x="289" y="662" width="76" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="blackPlate:" destination="D3L-ST-r6W" eventType="touchUpInside" id="jQd-hB-09t"/>
                                 </connections>
@@ -113,6 +120,18 @@
                                     <action selector="twohundo:" destination="D3L-ST-r6W" eventType="touchUpInside" id="Oam-7O-M1Y"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f6b-zB-E5T">
+                                <rect key="frame" x="169" y="662" width="76" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" systemColor="secondarySystemBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="greenPlate:" destination="D3L-ST-r6W" eventType="touchUpInside" id="L1j-8a-L2i"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="MBz-i5-ubR"/>
@@ -124,6 +143,7 @@
                         <outlet property="chip" destination="0TB-1B-6Nh" id="EQy-lA-tzr"/>
                         <outlet property="firButton" destination="zYX-Tz-2BI" id="2Nc-YQ-mMG"/>
                         <outlet property="fourButton" destination="gjb-u2-UMz" id="CFf-Bv-2SB"/>
+                        <outlet property="greenButton" destination="f6b-zB-E5T" id="uQ5-tc-zVX"/>
                         <outlet property="infoLabel" destination="Lcd-CJ-3xB" id="Y4B-6s-Ajb"/>
                         <outlet property="redButton" destination="TMa-o7-NrH" id="Dd9-B8-lQl"/>
                         <outlet property="secButton" destination="0e2-Tp-Jv2" id="L6M-gT-sK9"/>
